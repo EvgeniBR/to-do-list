@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>my 2Do liSt</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+ <h1>My To-Do List:</h1>
+ <label class="textlabel" for="text">Enter you assignment here:</label>
+ <input class="textinput" type="text"><br>
+ <label class="importancelabel" for="number">Choose the level of importance</label>
+ <input class="importanceinput" type="number" min =1 max = 9> <br>
+ <input class="btn" type="submit" value="Do the To-Do">
+ <div class="warningcontainer ">
+   <div class="warning ">
+   </div>
+  </div>
+ <div class="mylist"></div>
+
+
+  <script src="./logic.js"></script>
+</body>
+</html>
